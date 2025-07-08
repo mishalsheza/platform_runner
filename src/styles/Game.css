@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+}
+
+.start-screen {
+  text-align: center;
+  color: white;
+}
+
+.start-screen h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.start-screen button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#game-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
